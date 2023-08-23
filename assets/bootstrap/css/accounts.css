@@ -1,0 +1,83 @@
+.card-shadow{
+    margin-top: 12px;
+}
+.card-header{
+    background-color:white;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    color: white;
+    
+}
+
+
+#left-col{
+    width: 70%;
+}
+.title_bar{
+    background: burlywood;
+}
+
+
+.table td, th{
+    text-align: center;
+}
+.table tr:hover{
+    background-color: #f7f7f7;
+}
+
+/* Show icon in the table row */
+tr .bx {
+    margin-right:10px;
+    opacity: 0;
+    transition: opacity .2s ease-out;
+    cursor: pointer;
+    transition-delay: .1s;
+}
+tr button[type="button"]{
+    opacity: 0;
+  }
+tr:hover button[type="button"]{
+    opacity: 1;
+    border: none;
+    background-color: #dbdada;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  tr:hover button[type="button"]:hover{
+    opacity: 1;
+    border: none;
+    font-size: 22px;
+    
+  }
+  tr:hover button[type="button"]:focus{
+    opacity: 1;
+    border: none;
+    outline:none;
+ 
+  }
+tr:hover .bx{
+    opacity: 1;
+    transition-delay: 0s;
+   
+    position: relative;
+   
+}
+tr:hover .ico{
+  background-color: #dbdada;
+  border-radius: 20px;
+    position: relative;
+}
+.ico{
+    padding-left: 1%;
+    margin-left: 60%;
+    margin-top: -6%; 
+}
+tr:hover .admi{
+    background-color: #dbdada;
+  border-radius: 20px;
+    position: relative;
+}
+.admi{
+    padding-left: 1%;
+    margin-left: 50%;
+    margin-top: -8%; 
+}

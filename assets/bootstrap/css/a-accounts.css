@@ -1,0 +1,80 @@
+input[type="number"],input[type="date"]{
+    width:100%;
+    padding:12px 14px;
+    border-radius:5px;
+    background-color: whitesmoke;
+     color:grey;
+     border:none;
+     outline:none;
+}
+
+#userole{
+    width:100%;
+    padding:12px 14px;
+    border-radius:5px;
+    background-color: whitesmoke;
+     color:grey;
+     border:none;
+     outline:none;
+
+}
+#userole:focus{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background:white;
+    border:none;
+
+}
+.select-items{
+    background:white;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding:10px 13px;
+    position:absolute;
+
+    
+}
+
+input[type="number"]:focus,input[type="text"]:focus{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background:white;
+    border:none;
+
+}
+#addacc{
+padding:12px 15px;
+border-radius:5px;
+background:white;
+color:grey;
+border:none;
+outline:none;
+float:right;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#addacc:hover{
+    background:green;
+    color:white;
+}
+
+#useracc, #admin, #sk, #clients{
+padding:12px 13px;
+background:white;
+border:none;
+font-size:15px;
+outline:none;
+color:grey;
+width:100%;
+}
+
+#closeadduserdiv{
+padding:12px 15px;
+border-radius:5px;
+background:white;
+color:grey;
+border:none;
+outline:none;
+float:right;
+}
+#closeadduserdiv:hover{
+ background:whitesmoke;
+ border-radius:50px;
+}

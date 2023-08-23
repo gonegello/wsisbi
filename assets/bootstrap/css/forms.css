@@ -1,0 +1,27 @@
+.searchbar{
+   
+    width: 20%;
+    padding: 8px 10px;
+    float: right;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+    font-size: 12px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #edeeee;
+
+}
+.searchbar:hover{
+   
+    border: none;
+    box-shadow: rgba(203, 205, 206, 0.3) 0px 1px 2px 0px, rgba(203, 205, 206, 0.3)  0px 1px 3px 1px;
+    
+}
+.searchbar:focus{
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(203, 205, 206, 0.3) 0px 1px 2px 0px, rgba(203, 205, 206, 0.3)  0px 1px 3px 1px;
+    width: 30%;
+}

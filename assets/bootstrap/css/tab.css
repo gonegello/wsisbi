@@ -1,0 +1,27 @@
+.nav-item{
+    border:none;
+    outline:none;
+    width: 20%;
+}
+
+.container tab-pane :active{
+    margin: 0;
+    border:none;
+    outline:none;
+
+
+}
+
+.nav-item .nav-link{
+
+    color:rgb(66, 66, 66);
+    outline: none;
+    border:none;
+}
+
+
+.tab-content{
+    border:none;
+    outline:none;
+}
+

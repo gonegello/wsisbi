@@ -1,0 +1,123 @@
+/* Modal edit icon */
+/* para matangtang ag background bluur */
+.modal-backdrop {
+  display:none;
+}
+.modal-open .modal {
+  width: 260px;
+  margin: 0 auto;
+  margin-left: 50%;
+  margin-top: 5%;
+}
+.modal-header{
+  background-color: white;
+  padding-bottom: 0%;
+}
+.modal-title{
+    margin-top: 0px;
+    margin-left: 12%;
+}
+.close:focus {
+  outline: 0;
+  border: 0px solid #fff;
+  outline: none;
+}
+.material-textfield {
+  position: relative;  
+  margin-bottom: 12px;
+  margin-left: 5%;
+}
+input[type="text"] {
+  width: 200px;
+  margin-bottom: 5px;
+  align-items: center;
+  
+}
+input[type="password"] {
+  width: 500px;
+  margin-bottom: 5px;
+  align-items: center;
+  
+}
+.op {
+  width: 200px;
+  margin-bottom: 5px;
+  align-items: center;
+  border-radius: 5px;  
+ 
+  
+}
+.labelClass {
+  position: absolute;
+  font-size: 12px;
+  left: 0;
+  
+  transform: translateY(-50%);
+  background-color: white;
+  color: gray;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  transition: .1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+}
+.lab {
+  position: absolute;
+  font-size: 12px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: gray;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  transition: .1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+}
+/*
+input {
+  font-size: 12px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;  
+  padding: 0.2rem 0.2rem;
+  color: gray;
+  transition: 0.1s ease-out;
+  width: 10%;
+}*/
+input:focus {
+  border-color: #1d1b31;  
+}
+/* para na sa label muibabaw*/
+input:focus + label {
+  color: #1d1b31;
+  top: 0;
+  transform: translateY(-50%) scale(.9);
+}
+input:not(:placeholder-shown) + label {
+  top: 0;
+  transform: translateY(-50%) scale(.9);
+}
+
+#circle{
+    font-size: 150px;
+    padding-top: -20%;
+}
+H6{
+  text-align: center;
+}
+/* End Modal Edit Icon */
+
+/* Modal for Admin info*/
+#infoModal-open #infoModal {
+  width: 500px;
+  margin: 0 auto;
+  margin-left: 50%;
+  margin-top: 5%;
+}
+.modal-body .title-name{
+font-size: 10px;
+color: aquamarine;
+}
+/* Modal for Admin info*/

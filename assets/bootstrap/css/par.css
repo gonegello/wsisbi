@@ -1,0 +1,255 @@
+input[type="text"], input[type="number"]{
+    padding:12px 14px;
+    border-radius:5px;
+    background-color: whitesmoke;
+    color:grey;
+    border:none;
+    outline:none;
+   
+}
+
+input[type="text"]:focus, input[type="number"]:focus{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background:white;
+    border:none;
+
+}
+
+
+button[type="submit"]{
+  padding:12px 20px;
+  background:whitesmoke;
+  border:none;
+  color:grey;
+  border-radius:5px;
+  margin-right:8px;
+  float:right;
+ 
+}
+
+button[type="submit"]:hover{
+  color:white;
+  background:#5bc0de;
+}
+
+#draft{
+  padding:12px 20px;
+  background:whitesmoke;
+  border:none;
+  color:grey;
+  border-radius:5px;
+ 
+}
+
+#draft:hover{
+  background:#3fd672;
+  color:white;
+}
+
+#showdraftdiv{
+    outline:none;
+    padding:12px 20px;
+    background:whitesmoke;
+    border:none;
+    color:grey;
+    border-radius:5px;
+    float:right;
+}
+#showdraftdiv:hover{
+background-color: burlywood;
+color:white;
+
+}
+#closebtn{
+  outline:none;
+  padding:12px 20px;
+  background:whitesmoke;
+  border:none;
+  color:grey;
+  border-radius:5px;
+}
+#closebtn:hover{
+  background:darkred;
+  color:white;
+}
+
+#approvebtn{
+  outline:none;
+  padding:12px 20px;
+  background:whitesmoke;
+  border:none;
+  color:grey;
+  border-radius:5px;
+}
+#approvebtn:hover{
+  background:#3fd672;
+  color:white;
+  
+}
+
+
+input[type="text"]{
+  width:100%;
+}
+
+input[type="number"]{
+  width:80%;
+}
+#addbtn{
+  padding:12px 13px;
+  border-radius:50%;
+  background:whitesmoke;
+  color:green;
+  border:none;
+  outline:none;
+  float:right;
+  
+
+}
+#addbtn:hover{
+  background:green;
+  color:white;
+}
+
+#closedraftdiv{
+  padding:12px 13px;
+  border-radius:50%;
+  background-color: white;
+  color:grey;
+  font-size:30px;
+  border:none;
+  outline:none;
+  float:right;
+}
+
+#closedraftdiv:hover{
+  background-color: whitesmoke;
+}
+
+
+#removeBtn{
+  padding:12px 13px;
+  border-radius:50%;
+  background:whitesmoke;
+  border:none;
+  color:red;
+  font-size:20px;
+  outline:none;
+  font-weight:bold;
+  float:right;
+}
+#removeBtn:hover{
+  background:red;
+  color:white;
+
+}
+
+label{
+  color:grey;
+}
+
+#editBtn{
+  padding:14px 15px;
+  border-radius:50%;
+  background:white;
+  color:grey;
+  border:none;
+  outline:none;
+  
+}
+#editBtn:hover, #deletedraft:hover{
+  background:whitesmoke;
+  
+}
+
+#deletedraft{
+  padding:12px 13px;
+
+  border-radius:50%;
+  background:white;
+  color:grey;
+  border:none;
+  outline:none;
+}
+#unread,#seen, #recent{
+  padding:12px 13px;
+  background:white;
+  border:none;
+  font-size:15px;
+  outline:none;
+  color:grey;
+  width:100%;
+ 
+}
+#unread:hover, #seen:hover, #recent:hover{
+  
+  color:#ccae90;
+ 
+}
+#card-link-req:hover{
+  border:1px solid green;
+  background-color: green;
+}
+textarea{
+  max-height:100%;
+  border:none;
+  border-radius:5px;
+  background-color: whitesmoke;
+  outline:none;
+}
+textarea:focus{
+    border:1px solid grey;
+    color:grey;
+
+}
+#showreqBtn{
+  outline:none;
+  width: 100%;
+  border:none;
+  box-shadow: none;
+  background:white;
+  border-radius:5px;
+  border:1px solid #ededed;
+  
+}
+#showreqBtn:hover{
+  border-left:7px solid #ccae90;
+ 
+
+
+}
+#pending,#all, #approved{
+  padding:12px 13px;
+  background:white;
+  border:none;
+  font-size:15px;
+  outline:none;
+  color:grey;
+  width:100%;
+  margin-bottom:-22px;
+ 
+
+ 
+}
+
+  
+ #user,#admin, #storekeeper,#clients{
+  padding:12px 13px;
+  background:white;
+  border:none;
+  font-size:15px;
+  outline:none;
+  color:grey;
+  width:100%;
+  margin-bottom:-22px;
+ }
+
+
+ 
+
+
+  
+ 
+
+
+

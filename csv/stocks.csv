@@ -1,0 +1,12 @@
+id,product_code,photo,stock_name,brand,description,quantity,unit,unit_price,total_price,date_arrived,input_date,int_typeid
+2,NULL,stock_photo/91dbf3bf1a4a76f50fdc45ac4437888f4e4771cde22edd22f7fdc8a719259a6c.jpg_2200x2200q80.jpg_.webp,"Bond Paper","HARD COPY","Size A4",3,rem,250,750,"2021-11-05 00:00:00","2021-11-21 15:49:59",2
+7,NULL,stock_photo/6fd3f76648147129be341051f04602acimages.jpg,Stapler,HBW,"9948 35 w/o remover",4,pcs,89.45,357.8,"2021-10-31 00:00:00","2021-11-22 16:08:35",1
+8,NULL,stock_photo/a36a723d6ab098cdfbe5d732d4f56b76Pilot-RT.png,Ballpen,Pilot,"Ball Point RT",2,box,56,112,"2021-11-13 00:00:00","2021-11-22 10:07:18",2
+9,NULL,stock_photo/d1d420c2995baaaed92eb1b2ed0281962af8f5d8b4777896361dad0bd6d4ea11.jpg,Marker,Pilot,"Super Color Marker",4,box,120,480,"2021-11-20 00:00:00","2021-11-22 10:32:27",2
+10,NULL,stock_photo/f0c6241deafed5e585005c9a58fc0c36ethyl-alcohol-500x500.jpg,Alcohol,Ethyl,"UN-1170 Reagent Grade",3,gallon,599,1797,"2021-11-22 00:00:00","2021-11-22 10:34:43",2
+11,NULL,stock_photo/6ad7323ab7b39300569c6cdcc676f122f27075c6d4d2bd80a93026d5c78d00b6_tn.jpg,Chalk,Venus,"Yellow Chalk",2,box,150,300,"2021-11-21 00:00:00","2021-11-22 10:36:54",2
+12,NULL,stock_photo/d59b09f3ebc5c62d700250d3b062e0ffKEJIT19G_keji_magnetic_whiteboard_eraser_large_green.jpg,"White Board Eraser","Keji Magnetic","White Board Eraser",5,pcs,115.75,578.75,"2021-11-15 00:00:00","2021-11-22 16:47:49",1
+13,NULL,stock_photo/5eae8e1c6b436824d131e9085a99fe38prince-paperclip-small-1-box.jpg,"Paper Clip",Prince,"Jumbo Clip",1,box,45.25,45.25,"2021-11-22 00:00:00","2021-11-22 10:42:45",2
+14,NULL,stock_photo/d652202c7e2d5b5873f10a18777b93a8FDP-286-Web-3.jpg,Dustpan,Standalone,"Violet ",3,pcs,98,294,"2021-11-14 00:00:00","2021-11-22 10:45:45",1
+15,NULL,stock_photo/f88123495068856747cb81c9e86e85a3pc056834.jpg,"Hand Sanitizer",Ethyl,"No fuss & Non Sticky & Quick Dry",2,liter,145,290,"2021-11-16 00:00:00","2021-11-22 11:00:47",2
+16,NULL,stock_photo/5ee4e935110fa7ba35d77b193c63d6173527612de6c55986f5174be2ebdf7387.png_2200x2200q80.jpg_.webp,"Paper Puncher",Deli,"2 Hole Heavy Duty",4,pcs,58,232,"2021-11-02 00:00:00","2021-11-22 17:14:53",1

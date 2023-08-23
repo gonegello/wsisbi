@@ -1,0 +1,127 @@
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-input-placeholder {
+   font-style: italic;
+   font-size:12px;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
+
+    select,input[type="text"],input[type="number"],input[type="date"]{
+background:transparent;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:none;
+  border-bottom:1px solid #ccc;
+    border-radius:0px;
+  box-sizing: border-box;
+  outline:none;
+  font-style:italic;
+  color:#5DBB63;
+  font-size:15px;
+
+    
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+ 
+}
+td{
+    font-style:italic;
+}
+
+
+
+select:focus,input[type="text"]:focus,input[type="number"]:focus,input[type="date"]:focus{
+    border-bottom:1px solid #A3A3FF;
+
+
+}
+    #gen_result{
+        
+        
+    }
+    .crud-link{
+        font-size:20px;
+        padding:8px 11px;
+        
+       
+    }
+    .crud-link:hover{
+        color:green;
+        border-radius:50px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+    #search{
+        margin-top:1%;
+        border-radius:50px;
+        width:80%;
+        float:right;
+    }
+
+    [data-title]:hover:after {
+            visibility: visible;
+        }
+          
+        [data-title]:after {
+            content: attr(data-title);
+            background-color: rgb(40,40,40);
+            opacity:0.9;
+            color: white;
+            font-size: 15px;
+            position:absolute;
+            padding: 4px 8px 4px 8px;
+            visibility: hidden;
+            border-radius:3px;
+            box-shadow: 1px 1px 3px #222222;
+        }
+
+
+table{
+    width:100%;
+}
+.iar{
+    padding:10px;
+    margin-left:1%;
+    font-size:12px;
+    color:white;
+}
+.iar:hover{
+    font-size:13px;
+    color:white;
+}
+#dash{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-radius:none;
+  z-index:1;
+}
+.redirect{
+    border:1px solid black;
+    padding:10px;
+    float:right;
+    border:1px solid #A3A3FF;
+}
+.redirect:hover{
+    text-decoration:none;
+}

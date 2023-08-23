@@ -1,0 +1,29 @@
+@media print {
+    @page {
+        size: auto;   /* auto is the initial value */
+        margin: 0;  /* this affects the margin in the printer settings */
+    }
+    body * {
+        visibility: hidden;
+
+    }
+    .section-to-print, .section-to-print * {
+        visibility: visible;
+        
+    }
+    
+    .card-body{
+        border: none;
+    }
+    .section-to-print{
+        position: absolute;
+        margin-left: 2%;
+        top:1px;
+        right: 2%;
+    }
+    #print-btn
+    {
+        display: none;
+        visibility: none;
+    }
+}

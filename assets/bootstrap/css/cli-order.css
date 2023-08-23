@@ -1,0 +1,87 @@
+#cart, #orders{
+    padding:12px 13px;
+    background:white;
+    border:none;
+    font-size:15px;
+    outline:none;
+    color:grey;
+    width:100%;
+    margin-bottom:-22px;
+   }
+  input[type="checkbox"]{
+    height:12px;
+    width:12px;
+  }
+  #icheckout,#idelete{
+    padding:12px 13px;
+    border-radius:50%;;
+    outline:none;
+    border:none;
+    background:none;
+    font-size:30px;
+    float:right;
+    margin-right:5px;
+    text-decoration:none;
+  }
+  #icheckout{
+    color:#e05a00;
+  }
+  #idelete{
+    color:grey;
+  }
+  #checkout{
+    padding:13px 15px;
+    outline:none;
+    border:1px solid white;
+    color:white;
+    background:#bc3f31;
+    float:right;
+  }
+  
+  #icheckout:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+    
+  }
+  #idelete:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+  
+  }
+  #searchcart{
+    width:100%;
+    background:white;
+    color:white;
+    border-radius:50px;
+    border-bottom:1px solid white;
+  }
+  #searchcart:focus{
+    background:white;
+    border:none;
+    border-radius:50px;
+    color:grey;
+  }
+  
+  ::placeholder:focus {
+    color: grey;
+    /* Firefox */
+  }
+  
+  ::placeholder{
+    color:grey;
+    opacity:1;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+  
+  .modal-open .modal{
+    margin-top:1%;
+    
+  }
+  

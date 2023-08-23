@@ -1,0 +1,15 @@
+id,gen,unit,typeid
+1,"Bond Paper",rem,2
+2,Ink,container,2
+3,Stapler,pcs,1
+4,Pencil,box,2
+5,Ballpen,box,2
+6,Chalk,box,2
+7,Bluebook,pcs,2
+8,"White Board Eraser",pcs,1
+9,Alcohol,gallon,2
+10,Marker,box,2
+11,Dustpan,pcs,1
+12,"Hand Sanitizer",liter,2
+13,"Paper Clip",box,2
+14,"Paper Puncher",pcs,1

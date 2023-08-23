@@ -1,0 +1,10 @@
+id,product,unit,type
+1,Bondpaper,rem,RIS
+2,Pencil,pcs," "
+3,Ballpen,pcs,NULL
+4,"Correction Tape",pcs,NULL
+5,Marker,pcs,NULL
+6,Alcohol,gallon,NULL
+7,Facemask,box,NULL
+8,"Paper Clip",box,NULL
+9,Printer,none,NULL

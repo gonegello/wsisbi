@@ -1,0 +1,31 @@
+.table{
+    font-size: 12px;
+    border-collapse: collapse;
+    text-align: left;
+    border-top:1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-radius:5px;
+    table-layout: fixed;
+
+}
+
+
+th, td,tr {
+    text-align: left;
+    align-content: left;
+    padding: 10px;
+    
+  }
+tr{
+  border-left: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+
+}
+thead{
+  border-left:none;
+}
+th{
+  text-align: left;
+}
+
+/*tr:nth-child(even) {background-color: whitesmoke;}*/

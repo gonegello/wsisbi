@@ -1,0 +1,13 @@
+.rightable{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.card-body{
+    background: white;
+    max-width: 100%;
+    margin: 0;
+}
+.card{
+    border: none;
+}

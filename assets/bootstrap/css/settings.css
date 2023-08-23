@@ -1,0 +1,33 @@
+.card-body .row{
+    margin-bottom: 2%;
+}
+.usercon{
+    float: left;
+}
+.arro{
+    float: right;
+    font-size: 30px;
+}
+.ite{
+    margin-top: -14px;
+    float: left;
+}
+.card-body .ite .text-muted{
+    margin-top: -12px;
+    font-style: italic;
+    color:#cbd5df;
+    font-family: century gothic;
+}
+
+
+.dropdowntitle {
+    margin-top: 10px;
+    position:relative; 
+    width:100%; 
+    display:inline-block; 
+    clear:both;
+}
+.dropdowntitle i{
+    color: rgb(204, 203, 202) ;
+}
+

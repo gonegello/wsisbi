@@ -1,0 +1,66 @@
+input[type="number"],input[type="date"]{
+    width:100%;
+    padding:12px 14px;
+    border-radius:5px;
+    background-color: whitesmoke;
+     color:grey;
+     border:none;
+     outline:none;
+}
+
+input[type="number"]:focus,input[type="text"]:focus{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background:white;
+    border:none;
+
+}
+#add{
+padding:12px 15px;
+border-radius:50%;
+background:white;
+color:grey;
+border:none;
+outline:none;
+float:right;
+
+}
+#add:hover{
+    background:whitesmoke;
+    color:black;
+}
+#save{
+padding:12px 15px;
+border-radius:5px;
+background:#50C878;
+color:white;
+margin-top:3%;
+border:none;
+outline:none;
+float:right;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#save:hover{
+    background:black;
+    color:white;
+}
+#deletee,#editt,#viewinfo{
+
+border-radius:50%;
+background:white;
+color:#C0C0C0;
+border:none;
+outline:none;
+float:right;
+font-size:20px;
+}
+#deletee:hover,#editt:hover,#viewinfo:hover{
+color:black;
+}
+#divlink{
+color:grey;
+text-decoration:none;
+}
+#divlink:hover{
+color:#4286f4;
+
+}
